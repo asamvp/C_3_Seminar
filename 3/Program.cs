@@ -22,4 +22,4 @@ int x1 = Promt("Введите x1");
 int y1 = Promt("Введите y1");
 int x2 = Promt("Введите x2");
 int y2 = Promt("Введите y2");
-System.Console.WriteLine($"Расстояние между точками-> {Distance(x1,y1,x2,y2)}");
+System.Console.WriteLine($"Расстояние между точками-> {Distance(x1,x2,y1,y2)}");
